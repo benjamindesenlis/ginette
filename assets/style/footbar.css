@@ -1,0 +1,98 @@
+:root {
+  --main-color: #93cbff; /* Couleur principale */
+  --secondary-color: #20847F; /* Couleur secondaire */
+  /* --text-color: #333; /* Couleur du texte principale */
+  /* --background-color: #fff; Couleur de fond principale */ 
+}
+
+
+.footbar {
+    height:auto;
+    padding: 40px;
+    background-color: var(--main-color);
+    border-top: 3px solid black;
+  }
+  
+  
+.footbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introfoot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .introfoot h2 {
+    font-size: 30px;
+    font-family: 'Exposure50', cursive;
+    color: black;
+    margin: 0 auto;
+    /* text-shadow: 2px 2px 2px  white; */
+  }
+
+  .introfoot img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  .categories {
+    display: flex;
+justify-content: space-around;
+width: 100%;
+margin-top: 100px;
+  }
+
+  .reseaux2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ensavoirplus {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .legales {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reseaux2 ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  }
+
+  .legales ul li {
+    list-style: none;
+    margin-bottom: 30px;
+    }
+
+    .ensavoirplus ul li {
+        margin-bottom: 30px;
+    list-style: none;
+            
+    }
+
+    .categories a {
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Exposure50', cursive;
+        color: black;
+        /* text-shadow: 2px 2px 2px  white; */
+    }
+
+    .categories a:hover {
+      text-decoration: underline;
+    }

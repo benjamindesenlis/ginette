@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+    background-color: #E8DCB9;
+  }
+
+  :root {
+    --main-color: #71baff; /* Couleur principale */
+    --secondary-color: #71baff; /* Couleur secondaire */
+    /* --text-color: #333; /* Couleur du texte principale */
+    /* --background-color: #fff; Couleur de fond principale */ 
+}
+
+    /* ///////////////// PARTIE IMAGE INTRODUCTION ET TITRE DE LA PAGE //////////////////////// */
+
+
+    .homepage {
+      height: 90vh;
+        }
+      
+        .intro img {
+          width: 100%;
+          height: 80%;
+          position: absolute;
+          border-bottom: 3px solid black;
+        }
+      
+        .title {
+          position: relative;
+          padding: 80px;
+        }
+      
+        .title h1 {
+          font-size: 180px;
+          font-family: 'Exposure50', 'Arial';
+          color: black;
+          text-shadow: 1px 1px 4px  white;
+          /* -webkit-text-stroke: 1px black; */
+        }
+      
+        .title h2 {
+          font-size: 50px;
+          font-family: 'Exposure50', cursive;
+          color: black;
+          text-shadow: 1px 1px 4px  white;
+          margin-left: 10px;
+          margin-top: -20px;
+          /* -webkit-text-stroke: 1px black; */
+        }
+      
+        .reseaux {
+          margin-left: 10px;
+          margin-top: 20px;
+        }
+      
+        .reseaux ul li {
+          display:inline-block;
+          margin-right: 10px;
+        }
+
+  /* ///////////////// PARTIE INTRODUCTION NOTRE MAGASIN //////////////////////// */
+
+.intromagasin {
+    text-align: center;
+}
+
+.intromagasin h3 {
+    font-size: 60px;
+    font-family: 'Exposure50', cursive;
+    color: black;
+}
+
+.intromagasin p {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Exposure30', cursive;
+    color: black;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.backgroundmagasin {
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  width: 100%;
+
+}
+
+.backgroundmagasin img {
+height: 1200px;
+margin-top: -250px;
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+filter: grayscale(100%); /* Firefox */ 
+}
+
+.intromagasin {
+  position: relative;
+}
+
+  /* ///////////////// PARTIE GRID IMAGE //////////////////////// */
+  
+.image-grid {
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.image-row {
+  display: flex;  
+}
+
+.image-row .image {
+  margin: 12px;
+  height: 300px;  
+}
+
+.image { 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 1px 10px black,
+              0 1px 10px black,
+              0 1px 10px black;
+}
+.image-01 {
+  background-image: url('https://www.guide-bordeaux-gironde.com/_bibli/articlesPage_rte/40/rte_images/arcachon13.jpg'); 
+  flex: 1;  
+}
+
+.image-02 {
+  background-image: url('https://woody.cloudly.space/app/uploads/arcachon/2019/04/thumbs/front-de-mer-cap-ferret-1920x960.jpg'); 
+  flex: 1;  
+}
+
+.image-03 {
+  background-image: url('https://www.lege-capferret.com/wp-content/uploads/2015/03/pointe_header.jpg');  
+  flex: 2;  
+}
+
+.image-04 {
+  background-image: url('https://www.arcabike-velos.fr/wp-content/uploads/2021/02/arcabike-slide-4.jpg'); 
+  flex: 1;
+}
+
+.image-05 {
+  background-image: url('https://www.arcabike-velos.fr/wp-content/uploads/2021/02/ARCABIKE-SOLUTIONS-PRO.jpg');
+  flex: 2;
+}
+
+.image-06 {
+  background-image: url('https://media.sudouest.fr/1875374/1000x500/so-5f37e7ad66a4bd8a25d490d1-ph0.jpg?v=1597499522');  
+  flex: 2;
+}
+
+.image-07 {
+  background-image: url('https://www.campingbremontier.fr/img/camping/CapFerretBA_730.jpg'); 
+  flex: 1;
+}
+
+.image-08 {
+  background-image: url('https://www.agglo-cobas.fr/wp-content/uploads/2021/07/shutterstock_1871321011-scaled.jpg');  
+  flex: 3;
+}
+
+.image-09 {
+  background-image: url(' https://www.guide-bordeaux-gironde.com/_bibli/articlesPage/118/images/unnamed-1.jpg?v=ficheArticle&width=686&height=275&pixelRatio=2.6250');  
+  flex: 1;
+}
+
+.image-10 {
+  background-image: url('https://images.unsplash.com/photo-1616724319135-2370dbb4424c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2Nnw2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'); 
+  flex: 1;
+}
+
+.image-11 {
+  background-image: url('https://images.unsplash.com/photo-1616418672515-1c2b39e219d3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5N3w2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'); 
+  flex: 1;
+}
+
+.image-12 {
+  background-image: url('https://images.unsplash.com/photo-1548164806-9709e698bfc8?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzOHw2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'); 
+  flex: 1;
+}
+
+@media screen and (max-width: 400px) {
+  .image-row {
+    flex-direction: column;
+  }
+  
+  .image-row .image {
+    flex-basis: auto;
+  }
+}
+
+  /* ///////////////// PARTIE EMPLACEMENT OU SOMME NOUS  //////////////////////// */
+  .emplacement {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .emplacement h3 {
+    font-size: 60px;
+    font-family: 'Exposure50', cursive;
+    color: black;
+  }
+  
+  .emplacement h4 {
+    font-size: 30px;
+    font-family: 'Exposure50', cursive;
+    color: black;
+  }
+  
+  .emplacement p {
+    font-size: 25px;
+    font-family: 'Exposure30', cursive;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .emplacement iframe {
+    width: 80%;
+    height: 700px;
+    margin-top: 100px;
+    border: 2px solid black;
+  }
+  
+  .emplacement a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Exposure30', cursive;
+    color: black;
+  }
+  
+  .emplacement a:hover {
+    text-decoration: underline;
+  }
+
+   /* ///////////////// PARTIE CONTACT //////////////////////// */
+
+  .backgroundsection2 {
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    transform: scaleX(-1);
+    width: 100%;
+  }
+
+  .backgroundsection2 img {
+    height: 1000px;
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+filter: grayscale(100%); /* Firefox */ 
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  
+.intro3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro3 a {
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+  }
+  .intro3 a:hover {
+    color: rgb(161, 150, 137);
+  }
+  .intro3 h2 {
+    font-size: 60px;
+    font-family: 'Exposure50', cursive;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+  }
+  
+  .intro3 p {
+    font-size: 30px;
+    font-family: 'Exposure30', cursive;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+  }
+ 
+  .form {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    padding: 50px;
+    border: solid 2px black;
+    box-sizing: border-box; 
+    background-color: var(--main-color);
+    margin-bottom: 100px;
+  }
+  
+  label, input, textarea {
+    display: block;
+    /* margin-bottom: 10px; */
+    padding: 20px;
+    border: solid 1px black;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box; 
+    color: black;
+    font-family: 'Righteous', cursive;
+  }
+
+  input::placeholder, ::placeholder {
+    color: black;
+    font-family: 'Exposure30', cursive;
+  }
+  
+  input[type="submit"] {
+    background-color: white;
+    color: white;
+    padding: 10px 15px;
+    border: solid 1px black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Exposure30', cursive;
+    color: black;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(223, 209, 190);
+  }
+
+
+
+  /* ///////////////////////////////// */

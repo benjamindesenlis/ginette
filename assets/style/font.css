@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Exposure30';
+    src: url('Exposure30.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Exposure50';
+    src: url('Exposure50.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Exposure80';
+    src: url('Exposure80.otf') format('opentype');
+  }
